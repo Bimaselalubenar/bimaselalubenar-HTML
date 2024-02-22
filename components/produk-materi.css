@@ -1,7 +1,7 @@
 .produk-materi-container {
   gap: var(--dl-space-space-halfunit);
   flex: 0 0 auto;
-  width: 209px;
+  width: 200px;
   display: flex;
   position: relative;
   flex-wrap: wrap;
@@ -16,14 +16,7 @@
   cursor: pointer;
   height: auto;
   object-fit: cover;
-  transition: 0.5s;
   border-radius: var(--dl-radius-radius-radius8);
-}
-.produk-materi-image:hover {
-  transform: translateY(-12px);
-  box-shadow: 0px 3px 0px 0px #444444,0px 5px 5px 0px #909090;
-  margin-bottom: 0px;
-  padding-bottom: 0px;
 }
 .produk-materi-container1 {
   gap: var(--dl-space-space-halfunit);
@@ -71,6 +64,7 @@
   gap: var(--dl-space-space-halfunit);
   width: 100%;
   cursor: pointer;
+  height: 31px;
   display: flex;
   padding: 5px;
   transition: 0.5s;
@@ -97,16 +91,28 @@
   width: 15px;
   height: auto;
 }
-
-
-
-
-
+.produk-materi-root-class-name {
+  flex: 1;
+  width: 100%;
+}
+.produk-materi-root-class-name1 {
+  flex: 1;
+  width: 100%;
+}
+.produk-materi-root-class-name3 {
+  flex: 1;
+  width: 100%;
+}
+.produk-materi-root-class-name4 {
+  flex: 1;
+  width: 100%;
+}
 @media(max-width: 479px) {
   .produk-materi-container {
-    width: 154px;
+    width: 143px;
+    height: auto;
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: row;
     background-color: #f7f7f7;
   }
   .produk-materi-image {
