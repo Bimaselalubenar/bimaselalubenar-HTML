@@ -677,27 +677,12 @@
       });
     </script>
     <script>
-      const gitHub = document.getElementById("gitHub");
-      const popup = document.getElementById("popupgithub");
-      const close = document.getElementById("close");
-
-      gitHub.addEventListener("click", function () {
-        popup.style.display = "block";
+      document.getElementById("salesUpdate").addEventListener("click", function() {
+          window.open("popup-updatesales.html", "Popup 1", "width=400,height=400");
       });
 
-      close.addEventListener("click", function () {
-        popup.style.display = "none";
-      });
-    </script>
-    <script>
-      const updatesales = document.getElementById("updatesales");
-      const popupupdatesales = document.getElementById("popupupdatesales");
-      const close = document.getElementById("close");
-      updatesales.addEventListener("click", function () {
-        popup.style.display = "block";
-      });
-      close.addEventListener("click", function () {
-        popup.style.display = "none";
+      document.getElementById("profilGithub").addEventListener("click", function() {
+          window.open("popup-github.html", "Popup 2", "width=400,height=400");
       });
     </script>
     <script
